@@ -1,0 +1,74 @@
+<html>
+<style>
+body{
+background-image:url('imagee.jpg');
+background-repeat:no-repeat;
+background-size:cover;
+}
+h1{
+font-size:60px;
+color:white;
+text-align:center;
+margin-top:20px;
+}
+h2{
+font-size:40px;
+text-align:center;
+color:purple;
+}
+a{
+text-decoration:none;
+color:white;
+font-weight:bold;
+}
+li{
+font-size:30px;
+}
+li a:hover{
+color:white;
+background-color:black;
+}
+div{
+font-size:25px;
+margin-left:652px;
+margin-right:689px;
+background-color:black;
+}
+div a:hover{
+color:black;
+background-color:white;
+}
+a:hover{
+color:bisque;
+background-color:black;
+}
+</style>
+<head>
+<title>Home Page</title>
+</head>
+<body>
+<h1>SRMS TECHNOLOGICAL INSTITUTION</h1>
+<ul style="list-style-type:none;">
+<li><a href="#home">Administrator</a></li>
+<li><a href="#home">Lecturer</a></li>
+<li><a href="#home">Proffessor</a></li>
+<li><a href="#home">Staff</a></li>
+</ul><br>
+<h2>Success is not Final;<br>Failure is not Fatal;<br>It is the courage to continue that counts.</h2>
+<br><br><br>
+<div>
+<a href="#cus">CONTACT US</a>
+</div>
+<br><br><br><br>
+<form id="home" action="list.php" method="POST" style="background-color:darkviolet;margin-left:597px;margin-right:615px;padding-top:10px;padding-bottom:10px;">
+<label for="namee" style="font-size:25px;font-weight:bold;color:white;">Name : </label>
+<input type="text" id="namee" name="namee"><br><br>
+<label for="email" style="font-size:25px;font-weight:bold;color:white;">Email-ID : </label>
+<input type="text" id="email" name="email"><br><br>
+<label for="pass" style="font-size:25px;font-weight:bold;color:white;">Password : </label>
+<input type="password" id="pass" name="pass"><br><br>
+<input type="submit" value="LOGIN" name="login" style="font-size:25px;font-weight:bold;margin-left:100px;">
+</form><br><br><br><br><br>
+<p class="cus" id="cus" style="background-color:black;color:white;text-align:center;font-size:20px;">Contact us at +918729449862, or visit www.srmsit.org.in</p>
+</body>
+</html>
